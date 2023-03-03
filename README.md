@@ -1,4 +1,5 @@
-## Coding decoder only transformer from scratch using pytorch and lightning
+## Coding transformer language model from scratch where we model a sequence of characters.
 
-Decoder only transformer have masked attention ie, for understanding relationships between tokens in parallel, we only look at preceding tokens, since the task is to predict the next token.
-However, we have to provide the entire context to predict next token.
+- We use a small dataset- tinyShakespeare which is a concatenation of all of Shakespeare's work.
+
+- The model will learn how the characters follow each other, ie given a context of characters, the transformer neural network will predict the next character.
